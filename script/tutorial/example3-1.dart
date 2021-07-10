@@ -24,7 +24,7 @@ class People {
   }
   // method
   void namePrint() {
-    print('my name is $name');
+    print('my name is $name:$_innerType');
   }
 
   // get/set
