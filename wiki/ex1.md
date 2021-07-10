@@ -13,3 +13,4 @@ if (a is int) {
 ```
 - 兩個進階資料架構 List,Map
 - function 的回傳值一樣寫在最前面，void 則是指此function 沒有回傳值
+- 可用 final 作為 const
