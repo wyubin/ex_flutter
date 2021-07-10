@@ -40,3 +40,6 @@ Class及繼承
 設定物件須實做相關的屬性方法
 - 算是規範物件實做的屬性與方法
 - 可能在實做上面會不常使用
+
+# static
+一般來說 class 需要經過 initiate 產生 instance 之後才能使用所含有的 property/method，但其實可以用 static 來設定，在尚未initiate 時就可以取用

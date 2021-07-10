@@ -6,6 +6,8 @@ void main() {
   SmallPet m = SmallPet();
   m.speak();
   print(m.name);
+  print(SmallPet.size);
+  SmallPet.checkSize();
   var noHomeCat = NoHome();
   print(noHomeCat.name);
 }
@@ -43,8 +45,13 @@ class PetLikeCat extends Pet with Mao {
   PetLikeCat(String name) : super(name, null);
 }
 
+// static
 class SmallPet extends PetLikeCat {
+  static String size = '很小';
   SmallPet() : super('小貓');
+  static void checkSize() {
+    print('身體大小: $size');
+  }
 }
 
 // implements
