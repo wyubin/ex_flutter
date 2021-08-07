@@ -290,13 +290,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "lib_workshop",
+      "name": "lib_root",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.8"
     }
   ],
-  "generated": "2021-07-12T14:15:47.240693Z",
+  "generated": "2021-07-14T12:37:21.591793Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }

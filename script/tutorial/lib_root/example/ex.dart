@@ -1,4 +1,4 @@
-import 'package:lib_workshop/lib.dart' as tool;
+import 'package:lib_root/lib.dart' as tool;
 
 void main() {
   var a = tool.Sample();
